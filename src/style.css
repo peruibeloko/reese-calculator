@@ -1,0 +1,19 @@
+@import url('https://carlinhos.dev.br/shared/styles/theme.css');
+:root {
+  font-family: var(--font__body);
+  color: var(--color__text);
+  background-color: var(--color__background);
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
